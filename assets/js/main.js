@@ -70,6 +70,27 @@ tabs.forEach(tab => {
 })
 
 /*==================== SERVICES MODAL ====================*/
+const modelViews = document.querySelectorAll('.services__model'),
+        modelBtns = document.querySelectorAll('.sercices__button'),
+        modelCloses = document.querySelectorAll('.services__model-close')
+
+let model = function(modelClick){
+    modelViews[modelClick].classList.add('active-model')
+}
+
+modelBtns.forEach((modelBtn, i) => {
+    modelBtn.addEventListener('click', () => {
+        model(i)
+    })
+})
+
+modelCloses.forEach((modelClose, i) => {
+    modelClose.addEventListener('click', () => {
+        modelViews.forEach((modelView) => {
+            modelView.classList.remove('active-model')
+        })
+    })
+})
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/

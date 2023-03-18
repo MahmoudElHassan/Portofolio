@@ -94,10 +94,40 @@ modelCloses.forEach((modelClose, i) => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
+let swiperPortofilo = new Swiper(".portofilo__container", {
+    cssMode: true,
+    loop: true,
 
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }
+    // mousewheel: true,
+    // keyboard: true,
+});
 
 /*==================== TESTIMONIAL ====================*/
+let swiperTestimonial = new Swiper(".testimonial__container", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 48,
 
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets:true
+    },
+
+    breakPoints:{
+        568:{
+            slidesPreView:2
+        }
+    }
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 

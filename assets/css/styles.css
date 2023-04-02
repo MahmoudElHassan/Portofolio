@@ -278,8 +278,8 @@ img {
 }
 
 .home__content{
-  grid-template-columns: .5rem 2rem;
-  padding-top: 1rem;
+  grid-template-columns: .5fr 3fr;
+  padding-top: 3.5rem;
   align-items: center;
 }
 
@@ -1027,11 +1027,11 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 560px) {
-  .container{
+@media screen and (max-width: 350px) {
+  /* .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
-  }
+  } */
 
   .nav__menu{
     padding: 2rem .25rem 4rem;

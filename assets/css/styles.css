@@ -857,7 +857,7 @@ img {
 .testimonial__name{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .testimonial__client{

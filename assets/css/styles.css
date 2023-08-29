@@ -517,23 +517,23 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 100%;
 }
 
 .skills__css{
-  width: 80%;
+  width: 100%;
 }
 
 .skills__js{
-  width: 70%;
+  width: 90%;
 }
 
 .skills__angular{
-  width: 75%;
+  width: 80%;
 }
 
 .skills__net{
-  width: 80%;
+  width: 90%;
 }
 
 .skills__c{
@@ -541,11 +541,11 @@ img {
 }
 
 .skills__sql{
-  width: 80%;
+  width: 90%;
 }
 
 .skills__node{
-  width: 75%;
+  width: 80%;
 }
 
 .skills__figma{
@@ -846,10 +846,10 @@ img {
 }
 
 .testimonial__img{
-  /* margin-left: 40px; */
-  /* margin-bottom: 40px; */
-  width: 560px;
-  height: 300px;
+  margin-left: 40px; 
+  margin-left: var(--mb-1);
+  width: 530px;
+  height: 340px;
   /* border-radius: 4%; */
   margin-right: var(--mb-0-75);
 }
@@ -857,7 +857,6 @@ img {
 .testimonial__name{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  /* margin-top: 20px; */
 }
 
 .testimonial__client{

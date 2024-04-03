@@ -771,6 +771,7 @@ img {
 
 .portofilo__button:hover .button__icon{
   transform: translateX(.25rem);
+  padding: 3px;
 }
 
 .swiper-button-prev::after,
@@ -1243,6 +1244,7 @@ img {
     }
     .portofilo__content{
       align-items: center;
+      padding-top: 5px;
     }
 
     .project{
